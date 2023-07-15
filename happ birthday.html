@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/3691ac7ff1.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+   
+    .main1{
+        background-image: url("./happy\ birthday.jpg");
+        height: 700px;
+    }
+    .main2{
+        text-align: center;
+        padding-top: 20px;
+        color: rgb(84, 250, 148);
+    }
+    .main3{
+        box-sizing: content-box;  
+        margin-top: 20px;
+        border-radius: 20px;
+        padding-left: 600px;
+    }
+    .main4{
+        display: flex;
+        padding-left: 850px;
+        font-size: 70px;
+        gap: 20px;
+        color: rgb(23, 220, 235);
+        width: 100px;
+        height: 100px;
+        position: relative;
+        animation: example 5s infinite;
+    }
+    @keyframes example {
+      0%   { left:0px; top:0px;}
+      25%  { left:70px; top:0px;}
+      50%  { left:70px; top:70px;}
+      75%  { left:0px; top:70px;}
+      100% { left:0px; top:0px;}
+    }
+    .main5{
+        display: flex;
+        padding-left: 900px;
+        position: absolute;
+        width: 20px;
+        color: rgb(240, 239, 247);
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .fa-solid{
+        font-size: 30px;
+    }
+</style>
+<body>
+    <div class="main1">
+        <div class="main2">
+          <h1 class="main3"><u><i>HAPPY BIRTHDAY</i></u></h1>
+        </div>
+        <div class="main4">
+            <i class="fa-solid fa-cake-candles"></i>
+            <i class="fa-solid fa-wine-bottle"></i>
+            <i class="fa-solid fa-wine-glass"></i>
+        </div>
+        <div class="main5">
+            <p><u>TODAY IS THE BIRTHDAY OF THE PERSON WITH A COCONUT PERSONALITY,
+                <i class="fa-solid fa-face-smile"></i> WHO IS SPREADING JOY,POSITIVITY ALL
+                AROUND, MAY YOUR BIRTHDAY AND YOUR LIFE BE AS WONDERFUL AS YOU ARE!</u></p>
+        </div>
+</div>
+</body>
+</html>
